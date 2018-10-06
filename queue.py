@@ -34,7 +34,7 @@ class Queue:
         """
         if self.__type == self.__class__.FIFO:
             return self.list.pop(0)
-        elif self.__type == self.__class__LIFO:
+        elif self.__type == self.__class__.LIFO:
             return self.list.pop(len(self.list) - 1)
         else:
             raise ValueError("The type must be set to FIFO or LIFO. See the documentation")
@@ -57,3 +57,6 @@ class Queue:
             :rtype: bool
         """
         return len(self.list) == 0
+
+    def __str__(self):
+        return str(self.list)

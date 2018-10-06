@@ -2,6 +2,9 @@ Simple python class which implement the queue logic.
 
 See the main.py file to understand how to use the class.
 
+Warning the main.py works only for Python 3.
+Queue object can be used for Python 2.7 and Python 3
+
 Licence
 
 Copyright (c) 2018 David BELBEZE
